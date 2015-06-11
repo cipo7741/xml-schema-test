@@ -2,8 +2,8 @@
 
 ### Fragen, die dieses Repo beantworten will
 
-1. Ignoriert NoNamespaceSchemaLocation den TargetNamespace vom Schema?
-2. Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
+- Ignoriert NoNamespaceSchemaLocation den TargetNamespace vom Schema?
+- Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
 **Nein**
 [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
 
@@ -13,5 +13,5 @@ TargetNamespace.1: Expecting namespace `http://www.buw.de/databases`, but the ta
 Wofür brauch man dann das Attribut `schemaLocation`?
 [http://stackoverflow.com/questions/5875021/what-is-the-use-of-xsischemalocation](http://stackoverflow.com/questions/5875021/what-is-the-use-of-xsischemalocation)
 
-3. Muss man die URI in der `schemaLocation` angeben?
-4. Wenn ich im Schema kein `targetNamespace` angebe, sind die Elemente des Schemas im **defaultNamensraum** oder im **anonymen Namensraum**?
+- Muss man die URI in der `schemaLocation` angeben?
+- Wenn ich im Schema kein `targetNamespace` angebe, sind die Elemente des Schemas im **defaultNamensraum** oder im **anonymen Namensraum**?
