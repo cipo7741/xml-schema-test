@@ -1,6 +1,6 @@
 # XML-Schema Test
 
-XML-Namespaces: Probe aus Exempel mit [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
+XML-Namespaces: Probe auf's Exempel mit [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
 
 ## Fragen, die dieses Repo beantworten will
 
