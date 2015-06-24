@@ -6,14 +6,11 @@ XML-Namespaces: Probe auf's Exempel mit [http://www.xmlvalidation.com](http://ww
 
 1. Ignoriert `noNamespaceSchemaLocation` den `targetNamespace` vom Schema?
   - Nein, es darf kein `targetNamespace` im Schema stehen, wenn im Instanzdokument `noNamespaceSchemaLocation` genutzt wird.
-  - Errors in file [webis-person-namespace-ueberschrieben.xml](https://github.com/cipo7741/xml-schema-test/blob/master/webis-person-namespace-ueberschrieben.xml)
-Cannot find the declaration of element 'person'.
-  - Errors in file [webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
-Expecting no namespace, but the schema document has a target namespace of `http://www.buw.de/webtec`.
+  - Errors in file [webis-person-namespace-ueberschrieben.xml](https://github.com/cipo7741/xml-schema-test/blob/master/webis-person-namespace-ueberschrieben.xml): Cannot find the declaration of element 'person'.
+  - Errors in file [webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd): Expecting no namespace, but the schema document has a target namespace of `http://www.buw.de/webtec`.
 
 2. Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
-  - Errors in file [webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
-TargetNamespace.1: Expecting namespace `http://www.buw.de/databases`, but the target namespace of the schema document is `http://www.buw.de/webtec`.
+  - Errors in file [webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd): Expecting namespace `http://www.buw.de/databases`, but the target namespace of the schema document is `http://www.buw.de/webtec`.
   - Nein, man kann nicht durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben.
 
 3. Wofür wird das Attribut `schemaLocation` gebraucht?
