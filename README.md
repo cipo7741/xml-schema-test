@@ -6,8 +6,10 @@ XML-Namespaces: Probe auf's Exempel mit [http://www.xmlvalidation.com](http://ww
 
 1. Ignoriert `noNamespaceSchemaLocation` den `targetNamespace` vom Schema?
   - Nein, es darf kein `targetNamespace` im Schema stehen, wenn im Instanzdokument `noNamespaceSchemaLocation` genutzt wird.
-  - Errors in the XML-Document: Cannot find the declaration of element 'person'.
-  - Errors in file XML-Schema: Expecting no namespace, but the schema document has a target namespace of `http://www.buw.de/webtec`.
+  - Errors in file [webis-person-namespace-ueberschrieben.xml](https://github.com/cipo7741/xml-schema-test/blob/master/webis-person-namespace-ueberschrieben.xml)
+Cannot find the declaration of element 'person'.
+  - Errors in file [webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
+Expecting no namespace, but the schema document has a target namespace of `http://www.buw.de/webtec`.
 
 2. Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
   - Errors in file [webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
