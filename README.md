@@ -17,6 +17,6 @@ TargetNamespace.1: Expecting namespace `http://www.buw.de/databases`, but the ta
   
 ### Muss man die URI in der `schemaLocation` angeben?
   - Ohne URI nutzt man das Attribut `noNamespaceSchemaLocation`.
+  - 
 ### Wenn ich im Schema kein `targetNamespace` angebe, sind die Elemente des Schemas im **default Namensraum** oder im **anonymen Namensraum**?
-
   - Da man keinen Namensraum vergiebt, haben die Elemente des Schemas keinen Namensraum (das könnte man **anonymen Namensraum** nennen). Sie sind nicht im **default Namensraum**.
