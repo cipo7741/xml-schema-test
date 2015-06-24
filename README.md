@@ -21,5 +21,5 @@ XML-Namespaces: Probe auf's Exempel mit [http://www.xmlvalidation.com](http://ww
 4. Muss die URI in der `schemaLocation` angeben werden?
   - Ohne URI nutzt man das Attribut `noNamespaceSchemaLocation`.
 
-5. Wenn im Schema kein `targetNamespace` angeben ist, sind die Elemente des Schemas dann im **default Namensraum** oder im **anonymen Namensraum**?
-  - Da man keinen Namensraum vergiebt, haben die Elemente des Schemas keinen Namensraum (das könnte man **anonymen Namensraum** nennen). Sie sind nicht im **default Namensraum**.
+5. Wenn im Schema kein `targetNamespace` angeben ist, sind die Elemente des Schemas dann im *default Namensraum* oder im *anonymen Namensraum*?
+  - Da man keinen Namensraum vergiebt, haben die Elemente des Schemas keinen Namensraum (das könnte man *anonymen Namensraum* nennen). Sie sind nicht im *default Namensraum*.
