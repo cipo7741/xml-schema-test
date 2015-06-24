@@ -2,7 +2,8 @@
 
 ### Fragen, die dieses Repo beantworten will
 
-- Ignoriert NoNamespaceSchemaLocation den TargetNamespace vom Schema?
+- Ignoriert `noNamespaceSchemaLocation` den TargetNamespace vom Schema?
+  - Nein, es darf kein `targetNamespace` im Schema stehen, wenn im Instanzdokument `noNamespaceSchemaLocation` genutzt wird. 
 - Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
   - [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
   - Errors in file [https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
@@ -15,4 +16,5 @@ TargetNamespace.1: Expecting namespace `http://www.buw.de/databases`, but the ta
   
 - Muss man die URI in der `schemaLocation` angeben?
   - Ohne URI nutzt man das Attribut `noNamespaceSchemaLocation`.
-- Wenn ich im Schema kein `targetNamespace` angebe, sind die Elemente des Schemas im **defaultNamensraum** oder im **anonymen Namensraum**?
+- Wenn ich im Schema kein `targetNamespace` angebe, sind die Elemente des Schemas im **default Namensraum** oder im **anonymen Namensraum**?
+  - Da man keinen Namensraum vergiebt, haben die Elemente des Schemas keinen Namensraum (das könnte man **anonymen Namensraum** nennen). Sie sind nicht im **default Namensraum**.
