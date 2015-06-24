@@ -1,5 +1,7 @@
 # XML-Schema Test
 
+XML-Namespaces: Probe aus Exempel mit [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
+
 ## Fragen, die dieses Repo beantworten will
 
 1. Ignoriert `noNamespaceSchemaLocation` den `targetNamespace` vom Schema?
@@ -8,7 +10,6 @@
   - Errors in file XML-Schema: Expecting no namespace, but the schema document has a target namespace of `http://www.buw.de/webtec`.
 
 2. Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
-  - Probiert mit [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
   - Errors in file [https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
 TargetNamespace.1: Expecting namespace `http://www.buw.de/databases`, but the target namespace of the schema document is `http://www.buw.de/webtec`.
   - Nein, man kann nicht durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben.
