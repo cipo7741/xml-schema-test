@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <person
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://www.buw.de/webtec https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd"
+xsi:schemaLocation="http://www.buw.de/webtec webis-person.xsd"
  xmlns="http://www.buw.de/webtec">
 	<vorname>Alan</vorname>
 	<nachname>Turing</nachname>
