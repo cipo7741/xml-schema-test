@@ -14,8 +14,8 @@ XML-Namespaces: Probe auf's Exempel mit [http://www.xmlvalidation.com](http://ww
   - Nein, man kann nicht durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben.
 
 3. Wofür wird das Attribut `schemaLocation` gebraucht?
-  - Der Java-XML-Parser läd das Schema, dass in `schemaLocation` oder `noNamespaceSchemaLocation` angegeben ist um ein Instanzdokument zu validieren.
-  - Mache Java-Biblotheken verweisen intern zu einer URL auf ein Schema, so das der Parser kein Schema runterladen muss
+  - Der Java-XML-Parser läd das Schema herunter, das als URL in `schemaLocation` oder `noNamespaceSchemaLocation` angegeben ist, um ein Instanzdokument zu validieren.
+  - Mache Java-Biblotheken verweisen intern zu der URL auf ein lokales Schema, so das der Parser kein Schema herunterladen muss.
   - Quelle: [http://stackoverflow.com/questions/5875021/what-is-the-use-of-xsischemalocation](http://stackoverflow.com/questions/5875021/what-is-the-use-of-xsischemalocation)
 
 4. Muss die URI in der `schemaLocation` angeben werden?
