@@ -3,7 +3,8 @@
 ## Fragen, die dieses Repo beantworten will
 
 1. Ignoriert `noNamespaceSchemaLocation` den `targetNamespace` vom Schema?
-  - Nein, es darf kein `targetNamespace` im Schema stehen, wenn im Instanzdokument `noNamespaceSchemaLocation` genutzt wird. 
+  - Nein, es darf kein `targetNamespace` im Schema stehen, wenn im Instanzdokument `noNamespaceSchemaLocation` genutzt wird.
+
 2. Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
   - Probiert mit [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
   - Errors in file [https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
