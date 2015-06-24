@@ -5,9 +5,10 @@
 - Ignoriert `noNamespaceSchemaLocation` den TargetNamespace vom Schema?
   - Nein, es darf kein `targetNamespace` im Schema stehen, wenn im Instanzdokument `noNamespaceSchemaLocation` genutzt wird. 
 - Kann man durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben?
-  - [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
+  - Probiert mit [http://www.xmlvalidation.com](http://www.xmlvalidation.com)
   - Errors in file [https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd](https://raw.githubusercontent.com/cipo7741/xml-schema-test/master/webis-person.xsd)
 TargetNamespace.1: Expecting namespace `http://www.buw.de/databases`, but the target namespace of the schema document is `http://www.buw.de/webtec`.
+  - Nein, man kann nicht durch die URI in der `schemaLocation` den `targetNamespace` des Schemas überschreiben.
 
 - Wofür brauch man dann das Attribut `schemaLocation`?
   - Der Java-XML-Parser läd das Schema, dass in `schemaLocation` oder `noNamespaceSchemaLocation` angegeben ist um ein Instanzdokument zu validieren.
